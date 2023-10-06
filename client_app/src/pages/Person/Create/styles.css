@@ -1,0 +1,37 @@
+.newperson-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.newperson-container section.form {
+    margin: 50px;
+}
+
+.newperson-container section.form form input {
+    width:80%;
+    height: 40px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-top: 20px;
+    font-size: 200;
+    font-family: Pacifico;
+}
+
+.newperson-container section.form form button {
+    width:200px;
+    height: 40px;
+    color: #FFF;
+    background-color: #06f;
+    border: 1px solid #03f;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-top: 20px;
+    font-size: 200;
+    font-family: Pacifico;
+}
