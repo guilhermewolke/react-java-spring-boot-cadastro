@@ -1,0 +1,28 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Confirmação de cadastro</h1>
+
+        <p>Olá <strong th:text="${name}"></strong>!</p>
+        <p>Seja bem vindo!</p>
+        <p>Abaixo segue seus dados de cadastro:</p>
+        <table>
+            <tr>
+                <th>#ID</th>
+                <td><span th:text="${id}"></span></td>
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <td><span th:text="${name}"></span></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><span th:text="${email}"></span></td>
+            </tr>
+            <tr>
+                <th>Data de Nascimento</th>
+                <td><span th:text="${birthDate}"></span></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,2 +1,6 @@
 docker-compose.yaml
 Dockerfile
+client/node_modules
+server/.idea
+server/target/*
+server/Dockerfile
